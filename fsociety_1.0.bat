@@ -64,7 +64,7 @@ Rem ## authentication code
 	if defined setupdrv (
 	echo Found drive %setupdrv%
 	echo Installing .NET Framework 3.5...
-	dism.exe /online /enable-feature /featurename:NetFX3 /All /Source:%setupdrv%:\sources\sxs /LimitAccess /norestart 
+	dism.exe /online /enable-feature //norestart /featurename:NetFX3 /All /Source:%setupdrv%:\sources\sxs /LimitAccess  
 	
 	echo .NET Framework 3.5 Installed Succesfully.
 	echo.

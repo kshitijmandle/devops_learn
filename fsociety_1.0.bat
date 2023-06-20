@@ -3,7 +3,7 @@ title we are fsociety
 echo Installation started....
 ECHO Charging pe laga isko pehle...
 timeout /t 10 >nul
-Rem ## devloper - lc5703825
+Rem ## devloper - lc5703825 - Kshitij Mandale
 
 color 1f
 Rem ## authentication code
